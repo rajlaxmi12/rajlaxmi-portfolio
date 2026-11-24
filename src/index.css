@@ -7140,3 +7140,22 @@ a {
   }
 
 }
+
+@media (max-width: 768px) {
+
+  /* Reduce background numbers 01 and 02 */
+  .hero-background-number {
+    font-size: clamp(220px, 55vw, 320px);
+    letter-spacing: -15px;
+    line-height: 0.8;
+  }
+
+  /* Make PORTFOLIO smaller and more subtle */
+  .hero-background-word {
+    font-size: clamp(38px, 9vw, 65px);
+    letter-spacing: 0.08em;
+    opacity: 0.7;
+    white-space: nowrap;
+  }
+
+}
